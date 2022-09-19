@@ -1,0 +1,239 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 1,
+    "pending": 0,
+    "failures": 5,
+    "start": "2022-09-19T23:03:00.547Z",
+    "end": "2022-09-19T23:03:02.209Z",
+    "duration": 1662
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/",
+        "showDiff": false,
+        "actual": "let companyName = 'Scuber'",
+        "stack": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:14:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/",
+            "showDiff": false,
+            "actual": "let companyName = 'Scuber'",
+            "multiple": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/",
+            "stack": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:14:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:20:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "mostProfitableNeighborhood is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: mostProfitableNeighborhood is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "let companyName = 'Scuber'",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:24:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/",
+            "showDiff": false,
+            "actual": "let companyName = 'Scuber'",
+            "multiple": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/",
+            "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:24:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:30:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "companyCeo is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: companyCeo is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/",
+        "showDiff": false,
+        "actual": "let companyName = 'Scuber'",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:34:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/",
+            "showDiff": false,
+            "actual": "let companyName = 'Scuber'",
+            "multiple": "AssertionError: Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/",
+            "stack": "AssertionError: Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:34:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/",
+        "showDiff": false,
+        "actual": "let companyName = 'Scuber'",
+        "stack": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:14:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/",
+            "showDiff": false,
+            "actual": "let companyName = 'Scuber'",
+            "multiple": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/",
+            "stack": "AssertionError: Expected companyName to be a const: expected 'let companyName = \\'Scuber\\'' to match /const companyName/\n    at Context.<anonymous> (test/indexTest.js:14:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: mostProfitableNeighborhood is not defined\n    at Context.<anonymous> (test/indexTest.js:20:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "mostProfitableNeighborhood is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: mostProfitableNeighborhood is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 9,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/",
+        "showDiff": false,
+        "actual": "let companyName = 'Scuber'",
+        "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:24:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/",
+            "showDiff": false,
+            "actual": "let companyName = 'Scuber'",
+            "multiple": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/",
+            "stack": "AssertionError: Expected mostProfitableNeighborhood to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let mostProfitableNeighborhood/\n    at Context.<anonymous> (test/indexTest.js:24:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is declared as equal to Susan Smith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: companyCeo is not defined\n    at Context.<anonymous> (test/indexTest.js:30:14)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "companyCeo is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: companyCeo is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/",
+        "showDiff": false,
+        "actual": "let companyName = 'Scuber'",
+        "stack": "AssertionError: Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:34:21)\n    at processImmediate (node:internal/timers:464:21)",
+        "multiple": [
+          {
+            "name": "AssertionError",
+            "message": "Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/",
+            "showDiff": false,
+            "actual": "let companyName = 'Scuber'",
+            "multiple": "AssertionError: Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/",
+            "stack": "AssertionError: Expected companyCeo to be defined using let: expected 'let companyName = \\'Scuber\\'' to match /let companyCeo/\n    at Context.<anonymous> (test/indexTest.js:34:21)\n    at processImmediate (node:internal/timers:464:21)"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "file": "/home/abonsi/Development/code/phase-1-javascript-variables-lab/test/indexTest.js",
+      "duration": 2,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

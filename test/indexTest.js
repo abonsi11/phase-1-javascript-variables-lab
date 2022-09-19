@@ -1,3 +1,4 @@
+const { SSL_OP_LEGACY_SERVER_CONNECT } = require('constants');
 const fs = require('fs')
 const path = require('path')
 
@@ -34,3 +35,4 @@ describe('index.js', function () {
     });
   });
 });
+
